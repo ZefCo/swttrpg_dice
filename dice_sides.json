@@ -1,0 +1,121 @@
+{
+    "Boost": {
+        "name": "Boost",
+        "color": "Blue",
+        "Sides": 6,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Blank"],
+            "3": ["Success"],
+            "4": ["Success", "Advantage"],
+            "5": ["Advantage", "Advantage"],
+            "6": ["Advantage"]
+        }
+    },
+    "2": {
+        "name": "Setback",
+        "color": "Black",
+        "Sides": 6,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Blank"],
+            "3": ["Failure"],
+            "4": ["Failure"],
+            "5": ["Threat"],
+            "6": ["Threat"]
+        }
+    },
+    "3": {
+        "name": "Ability",
+        "color": "Green",
+        "Sides": 8,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Success"],
+            "3": ["Success"],
+            "4": ["Success", "Success"],
+            "5": ["Advantage"],
+            "6": ["Advantage"],
+            "7": ["Success", "Advantage"],
+            "8": ["Advantage", "Advantage"]
+        }
+    },
+    "4": {
+        "name": "Difficulty",
+        "color": "Purple",
+        "Sides": 8,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Failure"],
+            "3": ["Failure", "Failure"],
+            "4": ["Threat"],
+            "5": ["Threat"],
+            "6": ["Threat"],
+            "7": ["Threat", "Threat"],
+            "8": ["Failure", "Threat"]
+        }
+    },
+    "5": {
+        "name": "Proficency",
+        "color": "Yellow",
+        "Sides": 12,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Success"],
+            "3": ["Success"],
+            "4": ["Success", "Success"],
+            "5": ["Success", "Success"],
+            "6": ["Advantage"],
+            "7": ["Success", "Advantage"],
+            "8": ["Success", "Advantage"],
+            "9": ["Success", "Advantage"],
+            "10": ["Advantage", "Advantage"],
+            "11": ["Advantage", "Advantage"],
+            "12": ["Triumph"]
+        }
+    },
+    "6": {
+        "name": "Challenge",
+        "color": "Red",
+        "Sides": 12,
+        "results":
+        {
+            "1": ["Blank"],
+            "2": ["Failure"],
+            "3": ["Failure"],
+            "4": ["Failure", "Failure"],
+            "5": ["Failure", "Failure"],
+            "6": ["Threat", "Threat"],
+            "8": ["Advantage", "Advantage"],
+            "9": ["Failure", "Threat"],
+            "10": ["Threat", "Threat"],
+            "11": ["Threat", "Threat"],
+            "12": ["Despair"]
+        }
+    },
+    "7": {
+        "name": "Force",
+        "color": "White",
+        "Sides": 12,
+        "results":
+        {
+            "1": ["Dark Side"],
+            "2": ["Dark Side"],
+            "3": ["Dark Side"],
+            "4": ["Dark Side"],
+            "5": ["Dark Side"],
+            "6": ["Dark Side"],
+            "7": ["Dark Side", "Dark Side"],
+            "8": ["Light Side"],
+            "9": ["Light Side"],
+            "10": ["Light Side", "Light Side"],
+            "11": ["Light Side", "Light Side"],
+            "12": ["Light Side", "Light Side"]
+        }
+    }
+}
